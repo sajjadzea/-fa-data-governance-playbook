@@ -36,13 +36,13 @@
 
 ```mermaid
 graph LR
-  Citizen[شهروند / کاربر] --> Request[درخواست خدمت یا داده]
-  Org[سازمان داده‌محور] --> Governance[سیاست‌ها و کتابچه حکمرانی داده]
-  Request --> DataFlow[جمع‌آوری، آماده‌سازی و مستندسازی داده]
+  Citizen["شهروند / کاربر"] --> Request["درخواست خدمت یا داده"]
+  Org["سازمان داده‌محور"] --> Governance["سیاست‌ها و کتابچه حکمرانی داده"]
+  Request --> DataFlow["جمع‌آوری، آماده‌سازی و مستندسازی داده"]
   Governance --> DataFlow
-  DataFlow --> Tools[ابزارهای حکمرانی داده<br/>(OpenMetadata, DataHub, Apache Atlas)]
-  Tools --> Insight[گزارش، تحلیل و تصمیم]
-  Insight --> CitizenFeedback[بازخورد و بهبود تجربه‌ی کاربر]
+  DataFlow --> Tools["ابزارهای حکمرانی داده\n(OpenMetadata، DataHub، Apache Atlas)"]
+  Tools --> Insight["گزارش، تحلیل و تصمیم"]
+  Insight --> CitizenFeedback["بازخورد و بهبود تجربه‌ی کاربر"]
   CitizenFeedback --> Governance
 ```
 
