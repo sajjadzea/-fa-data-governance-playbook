@@ -1,0 +1,1 @@
+../../guides/quick-start-for-iran-orgs.md

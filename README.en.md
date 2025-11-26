@@ -11,3 +11,9 @@ It provides:
 For full details, please see the Persian `README.md`.
 
 > License: Content is released under **CC BY 4.0**, unless otherwise stated.
+
+## Samples and English versions
+
+- Filled sample data request form: `samples/data-request-form-example.md`
+- Filled sample data sharing agreement: `samples/data-sharing-agreement-example.md`
+- English forms: `templates/data-request-form-en.md`, `templates/data-sharing-agreement-en.md`, `templates/access-matrix-en.md`

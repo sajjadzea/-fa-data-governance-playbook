@@ -1,0 +1,21 @@
+site_name: Persian Data Governance Playbook
+site_description: کتابچه و جعبه‌ابزار حکمرانی داده برای سازمان‌های ایرانی
+site_author: Sajjad Zea
+repo_url: https://github.com/sajjadzea/fa-data-governance-playbook
+
+nav:
+  - خانه: index.md
+  - راهنماها:
+      - آغاز سریع برای سازمان‌های ایرانی: guides/quick-start-for-iran-orgs.md
+      - سناریوها:
+          - دانشجو ↔ سازمان دولتی: scenarios/student-to-gov-data-request.md
+          - دولت ↔ دولت: scenarios/gov-to-gov-data-sharing.md
+          - شرکت خصوصی ↔ دانشگاه: scenarios/private-to-university-collab.md
+      - ابزارها:
+          - OpenMetadata: tools/openmetadata.md
+          - DataHub: tools/datahub.md
+          - Apache Atlas: tools/apache-atlas.md
+  - قالب‌ها:
+      - فرم درخواست داده: templates/data-request-form.md
+      - موافقت‌نامه اشتراک داده: templates/data-sharing-agreement.md
+      - ماتریس دسترسی: templates/access-matrix.md
