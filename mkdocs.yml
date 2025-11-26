@@ -7,6 +7,7 @@ nav:
   - خانه: index.md
   - راهنماها:
       - آغاز سریع برای سازمان‌های ایرانی: guides/quick-start-for-iran-orgs.md
+      - انتخاب ابزار مناسب برای تیم‌های انسانی: tools-for-teams.md
       - سناریوها:
           - دانشجو ↔ سازمان دولتی: scenarios/student-to-gov-data-request.md
           - دولت ↔ دولت: scenarios/gov-to-gov-data-sharing.md
